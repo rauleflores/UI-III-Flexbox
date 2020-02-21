@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,28 +45,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Lacquer', 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Tomorrow', 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body{
 	margin: 40px 5% 60px;
 }
-
 /* Header */
 header a{
 	text-decoration: none;
@@ -81,8 +75,6 @@ header nav .headcol{
 	display: flex;
 	justify-content: space-between;
 }
-
-
 /* Subhead */
 .subhead{
 	text-align: center;
@@ -108,20 +100,14 @@ header nav .headcol{
 	background-color: black;
 	color: white;
 }
-
-/* Main/Footer Wrapper*/
-.outerdiv{
-	display: flex;
-	flex-direction: column;
-	width: 75%;
-	margin-left: 12%;
-}
-
 /* Main Content */
 .maincontent{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 50px 0 50px 0;
+	width: 75%;
+	margin-left: 12%;
+	margin-bottom: 2%;
 }
 .container1 {
 	font-size: 20px;
@@ -148,10 +134,11 @@ header nav .headcol{
 .container2 .col2{
 	width: 32%;
 }
-
 /* Footer */
 footer{
-	margin: 50px 0 100px 0;
+	width: 75%;
+	margin-left: 12%;
+	margin-bottom: 2%;
 }
 footer .contact{
 	width: 15%;
