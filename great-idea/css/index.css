@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,21 +45,104 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Lacquer', 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Tomorrow', 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin: 40px 5% 60px;
+}
+/* Header */
+header a{
+	text-decoration: none;
+	color: slategray;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+}
+header nav .headcol{
+	display: flex;
+	justify-content: space-between;
+}
+/* Subhead */
+.subhead{
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+.subhead h1{
+	margin-top: 20px;
+	font-size: 80px;
+	font-weight: 580;
+	
+}
+.subhead button{
+	background-color: white;
+	border: 1px solid black;
+	height: 38px;
+	width: 190px;
+	font-size: 18px;
+}
+.subhead button:hover{
+	background-color: black;
+	color: white;
+}
+/* Main Content */
+.maincontent{
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding: 50px 0 50px 0;
+	width: 75%;
+	margin-left: 12%;
+	margin-bottom: 2%;
+}
+.container1 {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 0;
+}
+.container1 .col1{
+	width: 49%;
+}
+.maincontent .mid-image{
+	display: flex;
+	justify-content: center;
+}
+.maincontent .mid-image img{
+	width: 100%;
+}
+.container2 {
+	font-size: 18px;
+	display:  flex;
+	justify-content: space-between;
+	margin: 2% 0;
+}
+.container2 .col2{
+	width: 32%;
+}
+/* Footer */
+footer{
+	width: 75%;
+	margin-left: 12%;
+	margin-bottom: 2%;
+}
+footer .contact{
+	width: 15%;
+}
+footer .copy{
+	text-align: center;
+}
