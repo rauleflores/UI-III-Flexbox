@@ -103,7 +103,7 @@ header nav .headcol{
 /* Main Content */
 .maincontent{
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	padding: 50px 0 50px 0;
 	width: 75%;
 	margin-left: 12%;
